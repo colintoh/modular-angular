@@ -1,0 +1,9 @@
+{
+  "name": "bower-grunt",
+  "version": "0.0.0",
+  "authors": [
+    "Colin Toh <colinnus@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true
+}
