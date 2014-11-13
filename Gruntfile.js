@@ -1,6 +1,6 @@
 module.exports = function(grunt){
 
-	require("matchdep").filter("grunt-*").forEach(grunt.loadNpmTasks);
+	require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
 	grunt.initConfig({
 		wiredep: {
