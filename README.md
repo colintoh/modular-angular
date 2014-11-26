@@ -5,7 +5,7 @@ Setup
 -----
 **1. Download Boilerplate**
 
-`git clone `
+`git clone https://github.com/colintoh/modular-angular`
 
 **2. Install**
 
