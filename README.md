@@ -33,15 +33,13 @@ In the header, you will find a script for livereload:
 
 	<script src="//localhost:35729/livereload.js"></script>
 
-Placeholder where grunt will insert vendor's css:
+Grunt will compile the vendor's css:
 
-	<!-- bower:css -->
-   	<!-- endbower -->
+	<link rel="stylesheet" href="stylesheets/vendor.css">
 
-Placeholder where grunt will insert vendor's js:
+Grunt will compile the vendor's js:
 
-	<!-- bower:js -->
-	<!-- endbower -->
+	<script src="javascripts/vendor.js"></script>
 
 Compile all the module's js and templates together in compiled-app.js
 

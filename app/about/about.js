@@ -12,5 +12,5 @@ angular.module('about',['ui.router'])
 		});
 	}).
 	controller('AboutCtrl', function($scope){
-
+		$scope.body = "This is a about us page."
 	})

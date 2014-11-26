@@ -30,8 +30,13 @@ module.exports = (grunt)->
 			'options':
 				base: 'app'
 			'main':
-				src: ['app/**/*/tpl/html']
+				src: ['app/**/*.tpl.html']
 				dest: 'public/app/template.js'
+
+		'bower_concat':
+			'main':
+				dest: 'public/javascripts/vendor.js'
+				cssDest: 'public/stylesheets/vendor.css'
 
 		'wiredep':
 			'target':
@@ -39,6 +44,7 @@ module.exports = (grunt)->
 
 		'http-server':
 			'dev':
+				root: 'public'
 				port: 8000
 				runInBackground: true
 
@@ -56,6 +62,6 @@ module.exports = (grunt)->
 	)
 
 	grunt.registerTask('default', [
-		'html2js','copy','concat','wiredep','http-server','watch'
+		'html2js','copy','concat','bower_concat','http-server','watch'
 	])
 

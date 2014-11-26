@@ -12,5 +12,5 @@ angular.module('home',['ui.router'])
 		});
 	})
 	.controller('HomeCtrl',function($scope){
-		$scope.name = "BB specialz";
+		$scope.body = "This is the home page";
 	})
