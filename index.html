@@ -1,23 +1,22 @@
 <!doctype html>
-<html>
+<html ng-app="boilerplate" ng-controller="AppCtrl">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Untitled</title>
+        <title>Angular Boilerplate</title>
+
+        <script src="//localhost:35729/livereload.js"></script>
 
         <!-- bower:css -->
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
         <!-- endbower -->
     </head>
     <body>
+        <div class="container" ui-view="main"></div>
 
 
 		<!-- bower:js -->
-		<script src="bower_components/jquery/dist/jquery.js"></script>
-		<script src="bower_components/hammerjs/hammer.js"></script>
-		<script src="bower_components/jquery-hammerjs/jquery.hammer.js"></script>
-		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 		<!-- endbower -->
+        <script src="javascripts/compiled-app.js"></script>
     </body>
 </html>
