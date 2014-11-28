@@ -12,7 +12,7 @@ Setup
 `npm install`
 
 **3. Run**
-`grunt` and point your browser to `http://localhost:8000/public`
+`grunt` and point your browser to `http://localhost:8000/`
 
 Files Organization
 --------------
