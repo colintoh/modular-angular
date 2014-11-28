@@ -47,6 +47,5 @@ Compile all the module's js and templates together in compiled-app.js
 
 Todo
 -----
-- Compile and copy vendor javascripts
 - CSS compilation
 
