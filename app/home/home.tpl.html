@@ -1,8 +1,10 @@
 <h1>Home</h1>
 
-{{body}}
+<ul>
+	<li><a ui-sref="about">About Us</a></li>
+	<li><a ui-sref="home.red">Nested Route: home.red</a></li>
+</ul>
 
-<a ui-sref="about">About Us</a>
-<a ui-sref="home.red">Red</a>
-
+<p>{{body}}</p>
+<hr>
 <div ui-view></div>
