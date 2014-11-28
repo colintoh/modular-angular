@@ -2,7 +2,6 @@ module.exports = (grunt)->
 	require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks)
 	require("matchdep").filter("grunt-*").forEach(grunt.loadNpmTasks)
 
-
 	grunt.initConfig(
 		'copy':
 			'html':
@@ -51,6 +50,8 @@ module.exports = (grunt)->
 			'scripts':
 				files: ['app/**/*.js']
 				tasks: ['concat']
+			'gruntfile':
+				files: ['Gruntfile.coffee']
 	)
 
 	grunt.registerTask('default', [
