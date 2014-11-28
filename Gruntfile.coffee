@@ -24,7 +24,7 @@ module.exports = (grunt)->
 				base: 'app'
 			'main':
 				src: ['app/**/*.tpl.html']
-				dest: 'app/template.js'
+				dest: 'public/javascripts/template.js'
 
 		'bower_concat':
 			'main':
